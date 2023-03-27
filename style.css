@@ -1,11 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Inter:wght@400;700&family=Krona+One&family=Montserrat:wght@100;400&display=swap');
 
 :root {
-    --font-family: font-family: 'Alkatra', cursive;
-    --primaty-color: #FF5ACD;
+    --font-family: 'Alkatra', cursive;
+    --primary-color: -webkit-linear-gradient(45deg,#FF5ACD, #FBDA61);
     --bg-color: #FBDA61;
-    --bg-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+    --bg-image: linear-gradient(90deg, #FBDA61 0%, #CECECE, #FF5ACD 100%);
 
 }
 
- 
+body {
+    background-image: var(--bg-image);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+    
+
+} 
+
+h1 {
+    font-size: 5em;
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1.25em;
+
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 4.5em;
+
+
+
+}
+
+.box {
+    border: 2px solid #FF5ACD;
+    display: inline-block;
+    font-size: 4em;
+    padding: 0.65em;
+    margin: 1.25em; 
+
+}

@@ -53,3 +53,11 @@ document.body.addEventListener('click', e => {
     }
 
 })
+
+function gameOver(numero) {
+    if (numero === 'Fim de jogo') {
+        return document.body.innerHTML = (`<div><h1>O Jogo Acabou</h1></div>
+       <button id="jogar-novamente" class="btn-jogar">Jogar Novamente</button>
+`);
+    }
+}

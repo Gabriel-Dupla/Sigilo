@@ -59,3 +59,19 @@ h3 {
 
 }
 
+.btn-jogar {
+    padding: 0.5em 0.90em;
+    border: 0;
+    background: var(--primary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+
+.btn-jogar:hover {
+    transform: translateY(3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: 2s;
+    
+}
